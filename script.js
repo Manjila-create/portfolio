@@ -91,7 +91,7 @@ const projects = {
             "A web development project focused on creating an engaging and user-friendly digital experience.",
 
         details:
-            "Wistie demonstrates frontend development using HTML, CSS and JavaScript, with an emphasis on creating an interactive and visually engaging web experience."
+            "Wistie demonstrates a full fledged tinder-like website where 2 friends can swipe on each other based on their shared wishlists and find their match using HTML, CSS. MySQL, PHP and JavaScript, with an emphasis on creating an interactive and visually engaging web experience."
 
     },
 
