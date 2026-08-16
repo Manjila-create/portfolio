@@ -27,7 +27,7 @@
           rel="stylesheet">
 
 
-    <!-- YOUR EXISTING CSS -->
+    <!-- MAIN CSS -->
 
     <link rel="stylesheet"
           href="style.css">
@@ -72,30 +72,15 @@
 
     <nav class="nav-links">
 
-        <a href="index.html">
-            Home
-        </a>
+        <a href="index.html">Home</a>
 
-        <a href="index.html#about">
-            About
-        </a>
+        <a href="index.html#about">About</a>
 
-        <a href="index.html#skills">
-            Skills
-        </a>
+        <a href="index.html#skills">Skills</a>
 
-        <a href="my_work.html"
-           class="active">
-            My Work
-        </a>
+        <a href="my_work.html">My Work</a>
 
-        <a href="index.html#journey">
-            Journey
-        </a>
-
-        <a href="index.html#contact">
-            Contact
-        </a>
+        <a href="index.html#contact">Contact</a>
 
     </nav>
 
@@ -142,10 +127,6 @@
         My Work
     </a>
 
-    <a href="index.html#journey">
-        Journey
-    </a>
-
     <a href="index.html#contact">
         Contact
     </a>
@@ -155,166 +136,496 @@
 
 
 <!-- =====================================================
-     WORK HERO
+     MY WORK HERO
 ===================================================== -->
 
-<section class="work-hero">
-
-    <div class="work-hero-content">
-
-        <span class="work-label">
-            03 · MY WORK
-        </span>
+<main class="work-page">
 
 
-        <h1>
-
-            Projects I'm
-            <span>proud of.</span>
-
-        </h1>
+    <section class="work-hero">
 
 
-        <p>
-
-            A collection of projects I've built while
-            exploring data analysis, machine learning,
-            artificial intelligence and web development.
-
-        </p>
+        <div class="work-hero-content">
 
 
-        <a href="index.html"
-           class="back-home">
+            <a href="index.html"
+               class="back-link">
 
-            ← Back to Home
+                ← Back to home
 
-        </a>
-
-    </div>
-
-</section>
+            </a>
 
 
+            <span class="work-label">
 
-<!-- =====================================================
-     PROJECTS
-===================================================== -->
+                 · MY WORK
 
-<section class="section projects-section"
-         id="projects">
+            </span>
 
 
-    <div class="projects-grid">
+            <h1>
 
+                Things I've
+                <span>built.</span>
 
-        <!-- =================================================
-             PROJECT 1
-        ================================================== -->
-
-        <article class="project-card featured">
-
-            <div class="project-top">
-
-                <span class="project-number">
-                    01
-                </span>
-
-                <span class="project-type">
-                    AI • NLP
-                </span>
-
-            </div>
-
-
-            <div class="project-icon">
-                🤖
-            </div>
-
-
-            <h3>
-                AI Recruitment System
-            </h3>
+            </h1>
 
 
             <p>
 
-                A web-based recruitment platform that
-                uses NLP and machine learning to analyze
-                resumes and rank candidates against
-                job requirements.
+                A collection of projects I've developed while
+                exploring data analysis, machine learning,
+                artificial intelligence and web development.
 
             </p>
 
 
-            <div class="project-tags">
+            <div class="work-stats">
+
+                <div>
+
+                    <strong>05+</strong>
+
+                    <span>Projects</span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>04+</strong>
+
+                    <span>Areas explored</span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>∞</strong>
+
+                    <span>Things to build</span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =================================================
+         PROJECTS
+    ================================================= -->
+
+    <section class="work-projects">
+
+
+        <div class="work-section-heading">
+
+            <span>
+                SELECTED PROJECTS
+            </span>
+
+            <h2>
+                From data
+                <span>to applications.</span>
+            </h2>
+
+        </div>
+
+
+
+        <div class="projects-grid work-project-grid">
+
+
+
+            <!-- ==========================================
+                 PROJECT 1
+            =========================================== -->
+
+            <article class="project-card featured">
+
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                    <span class="project-type">
+                        AI • NLP
+                    </span>
+
+                </div>
+
+
+                <div class="project-icon">
+                    🤖
+                </div>
+
+
+                <h3>
+                    AI Recruitment System
+                </h3>
+
+
+                <p>
+
+                    A web-based recruitment platform that
+                    analyzes resumes and ranks candidates
+                    according to job requirements.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>Python</span>
+
+                    <span>Flask</span>
+
+                    <span>TF-IDF</span>
+
+                    <span>Cosine Similarity</span>
+
+                    <span>SQL</span>
+
+                </div>
+
+
+                <button class="project-button"
+                        data-project="recruitment">
+
+                    Explore Project
+
+                    <span>→</span>
+
+                </button>
+
+
+            </article>
+
+
+
+            <!-- ==========================================
+                 PROJECT 2
+            =========================================== -->
+
+            <article class="project-card">
+
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                    <span class="project-type">
+                        DATA ANALYSIS
+                    </span>
+
+                </div>
+
+
+                <div class="project-icon">
+                    📊
+                </div>
+
+
+                <h3>
+                    Sales & Profit Analysis
+                </h3>
+
+
+                <p>
+
+                    Exploratory analysis of retail sales data
+                    to understand profitability, discounts,
+                    categories and business performance.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>Python</span>
+
+                    <span>Pandas</span>
+
+                    <span>NumPy</span>
+
+                    <span>Matplotlib</span>
+
+                    <span>Seaborn</span>
+
+                </div>
+
+
+                <button class="project-button"
+                        data-project="sales">
+
+                    Explore Project
+
+                    <span>→</span>
+
+                </button>
+
+
+            </article>
+
+
+
+            <!-- ==========================================
+                 PROJECT 3
+            =========================================== -->
+
+            <article class="project-card">
+
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                    <span class="project-type">
+                        MACHINE LEARNING
+                    </span>
+
+                </div>
+
+
+                <div class="project-icon">
+                    📈
+                </div>
+
+
+                <h3>
+                    Profit Margin Prediction
+                </h3>
+
+
+                <p>
+
+                    A machine learning project comparing
+                    regression models to predict profit margin
+                    and identify important business factors.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>Python</span>
+
+                    <span>Scikit-learn</span>
+
+                    <span>Linear Regression</span>
+
+                    <span>Random Forest</span>
+
+                </div>
+
+
+                <button class="project-button"
+                        data-project="prediction">
+
+                    Explore Project
+
+                    <span>→</span>
+
+                </button>
+
+
+            </article>
+
+
+
+            <!-- ==========================================
+                 PROJECT 4
+            =========================================== -->
+
+            <article class="project-card wistie-card">
+
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        04
+                    </span>
+
+                    <span class="project-type">
+                        WEB DEVELOPMENT
+                    </span>
+
+                </div>
+
+
+                <div class="project-icon">
+                    ✨
+                </div>
+
+
+                <h3>
+                    Wistie
+                </h3>
+
+
+                <p>
+
+                    A Tinder-like wishlist matching platform
+                    where two friends can discover shared
+                    wishes by swiping through each other's
+                    wishlists.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>JavaScript</span>
+
+                    <span>PHP</span>
+
+                    <span>MySQL</span>
+
+                </div>
+
+
+                <button class="project-button"
+                        data-project="wistie">
+
+                    Explore Project
+
+                    <span>→</span>
+
+                </button>
+
+
+            </article>
+
+
+
+            <!-- ==========================================
+                 PROJECT 5
+            =========================================== -->
+
+            <article class="project-card powerbi-card">
+
+
+                <div class="project-top">
+
+                    <span class="project-number">
+                        05
+                    </span>
+
+                    <span class="project-type">
+                        BUSINESS INTELLIGENCE
+                    </span>
+
+                </div>
+
+
+                <div class="project-icon">
+                    📉
+                </div>
+
+
+                <h3>
+                    Power BI Dashboard
+                </h3>
+
+
+                <p>
+
+                    An interactive dashboard transforming
+                    raw data into useful business insights
+                    using Power BI and DAX.
+
+                </p>
+
+
+                <div class="project-tags">
+
+                    <span>Power BI</span>
+
+                    <span>DAX</span>
+
+                    <span>Data Cleaning</span>
+
+                    <span>Visualization</span>
+
+                </div>
+
+
+                <button class="project-button"
+                        data-project="powerbi">
+
+                    Explore Project
+
+                    <span>→</span>
+
+                </button>
+
+
+            </article>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =================================================
+         TOOLS
+    ================================================= -->
+
+    <section class="work-tools-section">
+
+
+        <div class="work-section-heading">
+
+            <span>
+                TECHNOLOGY
+            </span>
+
+            <h2>
+                Tools I've
+                <span>worked with.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="additional-tools">
+
+
+            <div class="tools-label">
+                MY TOOLKIT
+            </div>
+
+
+            <div class="tools-list">
 
                 <span>Python</span>
-
-                <span>Flask</span>
-
-                <span>TF-IDF</span>
 
                 <span>SQL</span>
 
-            </div>
+                <span>MySQL</span>
 
-
-            <button class="project-button"
-                    data-project="recruitment">
-
-                Explore Project
-
-                <span>→</span>
-
-            </button>
-
-        </article>
-
-
-
-        <!-- =================================================
-             PROJECT 2
-        ================================================== -->
-
-        <article class="project-card">
-
-            <div class="project-top">
-
-                <span class="project-number">
-                    02
-                </span>
-
-                <span class="project-type">
-                    DATA ANALYSIS
-                </span>
-
-            </div>
-
-
-            <div class="project-icon">
-                📊
-            </div>
-
-
-            <h3>
-                Sales & Profit Analysis
-            </h3>
-
-
-            <p>
-
-                Exploratory analysis of retail sales
-                data to understand profitability,
-                discounts, categories and business
-                performance.
-
-            </p>
-
-
-            <div class="project-tags">
-
-                <span>Python</span>
+                <span>PostgreSQL</span>
 
                 <span>Pandas</span>
 
@@ -322,217 +633,90 @@
 
                 <span>Matplotlib</span>
 
-            </div>
-
-
-            <button class="project-button"
-                    data-project="sales">
-
-                Explore Project
-
-                <span>→</span>
-
-            </button>
-
-        </article>
-
-
-
-        <!-- =================================================
-             PROJECT 3
-        ================================================== -->
-
-        <article class="project-card">
-
-            <div class="project-top">
-
-                <span class="project-number">
-                    03
-                </span>
-
-                <span class="project-type">
-                    MACHINE LEARNING
-                </span>
-
-            </div>
-
-
-            <div class="project-icon">
-                📈
-            </div>
-
-
-            <h3>
-                Profit Margin Prediction
-            </h3>
-
-
-            <p>
-
-                A machine learning project comparing
-                regression models to predict profit margin
-                and identify important business factors.
-
-            </p>
-
-
-            <div class="project-tags">
-
-                <span>Python</span>
+                <span>Seaborn</span>
 
                 <span>Scikit-learn</span>
-
-                <span>Random Forest</span>
-
-                <span>ML</span>
-
-            </div>
-
-
-            <button class="project-button"
-                    data-project="prediction">
-
-                Explore Project
-
-                <span>→</span>
-
-            </button>
-
-        </article>
-
-
-
-        <!-- =================================================
-             PROJECT 4
-        ================================================== -->
-
-        <article class="project-card wistie-card">
-
-            <div class="project-top">
-
-                <span class="project-number">
-                    04
-                </span>
-
-                <span class="project-type">
-                    WEB DEVELOPMENT
-                </span>
-
-            </div>
-
-
-            <div class="project-icon">
-                ✨
-            </div>
-
-
-            <h3>
-                Wistie
-            </h3>
-
-
-            <p>
-
-                A full-fledged Tinder-like web application
-                where two friends can swipe through shared
-                wishlists and discover a match based on
-                their common interests.
-
-            </p>
-
-
-            <div class="project-tags">
-
-                <span>HTML</span>
-
-                <span>CSS</span>
-
-                <span>JavaScript</span>
-
-                <span>PHP</span>
-
-                <span>MySQL</span>
-
-            </div>
-
-
-            <button class="project-button"
-                    data-project="wistie">
-
-                Explore Project
-
-                <span>→</span>
-
-            </button>
-
-        </article>
-
-
-
-        <!-- =================================================
-             PROJECT 5
-        ================================================== -->
-
-        <article class="project-card powerbi-card">
-
-            <div class="project-top">
-
-                <span class="project-number">
-                    05
-                </span>
-
-                <span class="project-type">
-                    BUSINESS INTELLIGENCE
-                </span>
-
-            </div>
-
-
-            <div class="project-icon">
-                📉
-            </div>
-
-
-            <h3>
-                Power BI Dashboard
-            </h3>
-
-
-            <p>
-
-                An interactive dashboard transforming
-                raw data into useful business insights
-                using Power BI and DAX.
-
-            </p>
-
-
-            <div class="project-tags">
 
                 <span>Power BI</span>
 
                 <span>DAX</span>
 
-                <span>Visualization</span>
+                <span>Flask</span>
+
+                <span>PHP</span>
+
+                <span>JavaScript</span>
+
+                <span>HTML</span>
+
+                <span>CSS</span>
+
+                <span>JupyterLab</span>
+
+                <span>DBeaver</span>
+
+                <span>Git</span>
+
+                <span>GitHub</span>
+
+                <span>VS Code</span>
 
             </div>
 
 
-            <button class="project-button"
-                    data-project="powerbi">
+        </div>
 
-                Explore Project
+
+    </section>
+
+
+
+    <!-- =================================================
+         CTA
+    ================================================= -->
+
+    <section class="work-cta">
+
+
+        <div>
+
+            <span>
+                HAVE AN IDEA?
+            </span>
+
+
+            <h2>
+
+                Let's build
+                <span>something useful.</span>
+
+            </h2>
+
+
+            <p>
+
+                I'm interested in projects that combine
+                data, technology and meaningful ideas.
+
+            </p>
+
+
+            <a href="index.html#contact"
+               class="button primary">
+
+                Let's Connect
 
                 <span>→</span>
 
-            </button>
+            </a>
 
-        </article>
+        </div>
 
 
-    </div>
+    </section>
 
-</section>
+
+</main>
 
 
 
@@ -564,16 +748,12 @@
 
 
         <h2 id="modalTitle">
-
             Project Title
-
         </h2>
 
 
         <p id="modalDescription">
-
             Project description.
-
         </p>
 
 
@@ -586,28 +766,6 @@
     </div>
 
 </div>
-
-
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
-<footer class="work-footer">
-
-    <span>
-        © 2026 Manjila Adhikari
-    </span>
-
-    <a href="index.html">
-        Back to Home ↑
-    </a>
-
-    <span>
-        Built with curiosity ✦
-    </span>
-
-</footer>
 
 
 
